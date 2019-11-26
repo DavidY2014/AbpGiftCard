@@ -13,4 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AbpGiftCard.Core\AbpGiftCard.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Products\" />
+  </ItemGroup>
 </Project>

@@ -13,7 +13,8 @@ using AbpGiftCard.Configuration;
 using AbpGiftCard.Identity;
 using AbpGiftCard.Web.Resources;
 using Abp.AspNetCore.SignalR.Hubs;
-
+using AbpGiftCard.Services;
+using AbpGiftCard.Web.Extensions;
 
 namespace AbpGiftCard.Web.Startup
 {
@@ -28,6 +29,7 @@ namespace AbpGiftCard.Web.Startup
 
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+
             // MVC
             services.AddMvc(
                 options => options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute())
@@ -47,6 +49,8 @@ namespace AbpGiftCard.Web.Startup
                     f => f.UseAbpLog4Net().WithConfig("log4net.config")
                 )
             );
+
+
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)

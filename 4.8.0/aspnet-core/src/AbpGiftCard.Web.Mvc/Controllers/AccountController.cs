@@ -30,6 +30,7 @@ using AbpGiftCard.MultiTenancy;
 using AbpGiftCard.Sessions;
 using AbpGiftCard.Web.Models.Account;
 using AbpGiftCard.Web.Views.Shared.Components.TenantChange;
+using AbpGiftCard.Services;
 
 namespace AbpGiftCard.Web.Controllers
 {
@@ -58,7 +59,8 @@ namespace AbpGiftCard.Web.Controllers
             UserRegistrationManager userRegistrationManager,
             ISessionAppService sessionAppService,
             ITenantCache tenantCache,
-            INotificationPublisher notificationPublisher)
+            INotificationPublisher notificationPublisher
+            )
         {
             _userManager = userManager;
             _multiTenancyConfig = multiTenancyConfig;
@@ -71,6 +73,7 @@ namespace AbpGiftCard.Web.Controllers
             _sessionAppService = sessionAppService;
             _tenantCache = tenantCache;
             _notificationPublisher = notificationPublisher;
+
         }
 
         #region Login / Logout

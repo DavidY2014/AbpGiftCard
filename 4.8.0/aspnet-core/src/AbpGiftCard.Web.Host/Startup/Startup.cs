@@ -17,6 +17,7 @@ using AbpGiftCard.Identity;
 
 using Abp.AspNetCore.SignalR.Hubs;
 using Microsoft.AspNetCore.Mvc;
+using AbpGiftCard.Services;
 
 namespace AbpGiftCard.Web.Host.Startup
 {

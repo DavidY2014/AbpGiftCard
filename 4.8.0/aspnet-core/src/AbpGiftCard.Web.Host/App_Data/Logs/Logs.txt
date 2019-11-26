@@ -1,0 +1,117 @@
+DEBUG 2019-11-22 15:24:46,990 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-22 15:24:47,212 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-11-22 15:24:47,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.Web.Host.Startup.AbpGiftCardWebHostModule, AbpGiftCard.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.AbpGiftCardWebCoreModule, AbpGiftCard.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.AbpGiftCardApplicationModule, AbpGiftCard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.AbpGiftCardCoreModule, AbpGiftCard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.EntityFrameworkCore.AbpGiftCardEntityFrameworkModule, AbpGiftCard.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:47,236 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-11-22 15:24:47,335 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-22 15:24:47,335 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-22 15:24:47,335 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpGiftCard (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-22 15:24:47,335 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-22 15:24:47,714 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpGiftCard.EntityFrameworkCore.AbpGiftCardDbContext, AbpGiftCard.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:48,569 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-22 15:24:48,599 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-22 15:24:48,611 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-22 15:24:48,619 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpGiftCard
+DEBUG 2019-11-22 15:24:48,623 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-22 15:24:48,770 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-11-22 15:24:48,870 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-11-22 15:24:48,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-11-22 15:24:48,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-11-22 15:24:48,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Users.Dto.CreateUserDto
+DEBUG 2019-11-22 15:24:48,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Users.Dto.UserDto
+DEBUG 2019-11-22 15:24:48,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-22 15:24:48,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-22 15:24:48,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Roles.Dto.PermissionDto
+DEBUG 2019-11-22 15:24:48,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-11-22 15:24:48,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.MultiTenancy.Dto.TenantDto
+DEBUG 2019-11-22 15:24:59,361 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-22 15:24:59,376 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-11-22 15:24:59,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.Web.Host.Startup.AbpGiftCardWebHostModule, AbpGiftCard.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.AbpGiftCardWebCoreModule, AbpGiftCard.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.AbpGiftCardApplicationModule, AbpGiftCard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.AbpGiftCardCoreModule, AbpGiftCard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.EntityFrameworkCore.AbpGiftCardEntityFrameworkModule, AbpGiftCard.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,393 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-11-22 15:24:59,431 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-22 15:24:59,431 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-22 15:24:59,431 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpGiftCard (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-22 15:24:59,431 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-22 15:24:59,612 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpGiftCard.EntityFrameworkCore.AbpGiftCardDbContext, AbpGiftCard.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:24:59,860 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-22 15:24:59,883 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-22 15:24:59,890 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-22 15:24:59,894 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpGiftCard
+DEBUG 2019-11-22 15:24:59,897 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-22 15:24:59,930 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-11-22 15:24:59,948 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-11-22 15:24:59,977 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-11-22 15:24:59,977 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-11-22 15:24:59,982 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Users.Dto.CreateUserDto
+DEBUG 2019-11-22 15:24:59,982 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Users.Dto.UserDto
+DEBUG 2019-11-22 15:24:59,982 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-22 15:24:59,982 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-22 15:24:59,982 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Roles.Dto.PermissionDto
+DEBUG 2019-11-22 15:24:59,982 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-11-22 15:24:59,982 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.MultiTenancy.Dto.TenantDto
+DEBUG 2019-11-22 15:25:11,085 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-22 15:25:11,137 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-11-22 15:25:11,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.Web.Host.Startup.AbpGiftCardWebHostModule, AbpGiftCard.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.AbpGiftCardWebCoreModule, AbpGiftCard.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.AbpGiftCardApplicationModule, AbpGiftCard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.AbpGiftCardCoreModule, AbpGiftCard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpGiftCard.EntityFrameworkCore.AbpGiftCardEntityFrameworkModule, AbpGiftCard.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:11,156 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-11-22 15:25:11,208 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-22 15:25:11,208 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-22 15:25:11,208 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpGiftCard (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-22 15:25:11,208 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-22 15:25:11,451 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpGiftCard.EntityFrameworkCore.AbpGiftCardDbContext, AbpGiftCard.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-22 15:25:12,122 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-22 15:25:12,146 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-22 15:25:12,154 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-22 15:25:12,158 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpGiftCard
+DEBUG 2019-11-22 15:25:12,162 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-22 15:25:12,310 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-11-22 15:25:12,414 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-11-22 15:25:12,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-11-22 15:25:12,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-11-22 15:25:12,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Users.Dto.CreateUserDto
+DEBUG 2019-11-22 15:25:12,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Users.Dto.UserDto
+DEBUG 2019-11-22 15:25:12,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-22 15:25:12,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-22 15:25:12,455 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.Roles.Dto.PermissionDto
+DEBUG 2019-11-22 15:25:12,455 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-11-22 15:25:12,455 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpGiftCard.MultiTenancy.Dto.TenantDto

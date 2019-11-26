@@ -7,6 +7,7 @@ using Abp.EntityFrameworkCore.Uow;
 using Abp.MultiTenancy;
 using AbpGiftCard.EntityFrameworkCore.Seed.Host;
 using AbpGiftCard.EntityFrameworkCore.Seed.Tenants;
+using AbpGiftCard.EntityFrameworkCore.Seed.Product;
 
 namespace AbpGiftCard.EntityFrameworkCore.Seed
 {
@@ -27,6 +28,11 @@ namespace AbpGiftCard.EntityFrameworkCore.Seed
             // Default tenant seed (in host database).
             new DefaultTenantBuilder(context).Create();
             new TenantRoleAndUserBuilder(context, 1).Create();
+
+
+            //增加默认数据
+            new DefaultDbBuilder(context).Create();
+
         }
 
         private static void WithDbContext<TDbContext>(IIocResolver iocResolver, Action<TDbContext> contextAction)
